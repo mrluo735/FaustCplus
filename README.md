@@ -10,3 +10,14 @@ Flash Avatar Upload Sina Twitter Crack+
 .FLA源文件请用Adobe Flash CS5.5或以上版本打开
 
 修改内容如下:
+1.修改/views/cutView.as
+  // 直接返回returnData by mrluo735
+  try
+  {
+      ExternalInterface.call(Param.jsFunc, returnData);
+  }
+  catch (e:Error)
+  {
+  }
+  
+2.
