@@ -10,7 +10,7 @@ Flash Avatar Upload Sina Twitter Crack+
 .FLA源文件请用Adobe Flash CS5.5或以上版本打开
 
 修改内容如下:
-1.修改/views/cutView.as
+1.修改/view/CutView.as
   // 直接返回returnData by mrluo735
   try
   {
@@ -20,4 +20,12 @@ Flash Avatar Upload Sina Twitter Crack+
   {
   }
   
-2.
+2.修改/view/browse/BrowseComp.as
+  // 其他版本的flash也用这个
+  case "10":
+  case "11":
+  case "12":					
+  default:
+      this._fileRef.load();
+      this._fileRef.addEventListener(Event.COMPLETE, this.refPicOK);
+      break;
